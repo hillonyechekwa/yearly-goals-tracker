@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap');
+
+//text-size vars
+$text-size: 1.25rem;
+$title-size: 3rem;
+//swatch vars
+$base-color: #9CD6FF;
+$dark: #8F95FF;
+$light: #8FFFF2;
+$accent-dark: #82A3E8;
+$accent-light: #82D8E8;
+//indicator color vars
+$primary: hsl(3, 89%, 47%);
+$success: hsl(120, 100%, 47%);
+$fail: $primary;
+$start: hsl(47, 100%, 53%)	s;
+$finished: $success;
+//font vars
+$family: 'Poppins', 'Helvetica', sans-serif;
+$light-weight: 300;
+$normal-weight: 400;
+$bold-weigth: 700;
+$spacing:1.3rem;
+//others
+$min-box-width: 250px;
+$min-padding: .7rem;
+$max-padding: 1.2rem;
+
