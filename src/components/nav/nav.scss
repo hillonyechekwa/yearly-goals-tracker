@@ -1,5 +1,36 @@
 @import '../../global.scss';
 
 
+.nav{
+  padding: $min-padding;
+  background-color: $base-color;
+  width: 100%
+}
 
 
+.nav-link{
+  color: snow;
+  font-family: $family;
+  
+}
+
+.nav-link:hover{
+  color: $accent-dark;
+}
+
+.nav-link{
+  margin-left: 8rem;
+}
+
+
+.pilled{
+  background-color: $dark;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+
+.pilled:hover{
+  background-color: snow; 
+  color: $dark;
+  transform: scaleX(1.15);
+}

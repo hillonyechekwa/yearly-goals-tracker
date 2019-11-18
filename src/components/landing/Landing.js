@@ -5,8 +5,8 @@ const Landing = () => {
     <>
       <header className="container">
         <span className="logo"></span>
-        <h1>we'll help you track your goals</h1>
-        
+        <h1>let's help you track your goals</h1>
+
       </header>
       <main></main>
     </>

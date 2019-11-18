@@ -1,14 +1,19 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './nav.scss';
 
 const Nav = () => {
   return (
-    <nav className="navbar">
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/login">Login</NavLink>
-      <NavLink to="/signup">Sign Up</NavLink> 
+    <nav className="nav justify-content-center">
+    
+      <Link className="nav-link" to="/">Home</Link>
+      
+      <Link className="nav-link" to="/about">About</Link>
+      
+      <Link className="nav-link" to="/login">Login</Link>
+      
+      <Link className="nav-link pilled" to="/signup">Sign Up</Link> 
+      
     </nav>
   )
 }
