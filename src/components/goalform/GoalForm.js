@@ -16,14 +16,21 @@ class GoalForm extends Component {
   // let input;
 
 
-   toggleCard() {
-     console.log('clicked')
+   openCard() {
+     console.log('opened')
     const visibility = this.state.isVisible
 
     if(visibility){
       this.setState({isVisible: "visible"})
     }
-    
+  
+  }
+
+  closeCard(){
+    console.log('closed')
+    const visibility = this.state.isVisible
+
+      //remember to remove the toggle function
     if(visibility === "visible"){
       this.setState({isVisible: "hidden"})
     }
@@ -34,7 +41,7 @@ class GoalForm extends Component {
     return (
       <div className="wrapper">
 
-        <button className="addNewGoalBtn" onClick={() => this.toggleCard()}>
+        <button className="addNewGoalBtn" onClick={() => this.openCard()}>
           <FontAwesomeIcon icon={faPlus} size="2x" />
         </button>
 
@@ -59,7 +66,7 @@ class GoalForm extends Component {
           </div>
 
           <div className="col-md-12">
-            <button className="submit-button">Create</button>
+            <button className="submit-button" onClick={()=>this.closeCard()}>Create</button>
           </div>
       </form>
       </div>
