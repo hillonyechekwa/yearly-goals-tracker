@@ -19,10 +19,17 @@ $finished: $success;
 $family: 'Poppins', 'Helvetica', sans-serif;
 $light-weight: 300;
 $normal-weight: 400;
-$bold-weigth: 700;
+$bold-weight: 700;
 $spacing:1.3rem;
 //others
 $min-box-width: 250px;
 $min-padding: .7rem;
 $max-padding: 1.2rem;
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 

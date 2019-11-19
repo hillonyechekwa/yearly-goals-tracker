@@ -1,19 +1,18 @@
-import React from 'react';
-// import Calender from './components/calender/Calender';
-import {BrowserRouter as Router, Route} from 'react-router-dom'
-import Nav from './components/nav/Nav';
-import Landing from './components/landing/Landing';
+import React, { Component } from 'react';
+import GoalForm from './components/goalform/GoalForm';
 import './App.css';
 
-function App() {
-  return (
-    <Router>
-    <div className="App">
-     <Nav />
-     <Route exact path="/" component={Landing} />
-    </div>
-    </Router>
-  );
+
+class App extends Component{
+
+
+  render(){
+    return (
+      <div>
+        <GoalForm />
+      </div>
+    )
+  }
 }
 
 export default App;
